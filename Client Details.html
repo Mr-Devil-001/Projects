@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Detail's</title>
+    <link rel="stylesheet" href="client.css">
+    <style>
+        .a{
+            text-decoration: none;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            color: white;
+        }
+        a:hover {
+                background-color: transparent;
+                text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+        <div>
+            <form >
+                <h1>Client Details</h1>
+                <p>Enter the details of all incoming clients</p>
+                <div style="padding-left: 7%;">
+                    <div style="display: flex;">
+                        <div>Client Name * </div><div><input class="client" type="text" name="client" id="client" required></div>
+                    </div><br>
+
+                    <div style="display: flex;">
+                        <div id="C-name">Company * </div><div><input class="company" type="text" name="company" id="company" required></div>
+                    </div><br>
+
+                    <div style="display: flex;">
+                        <div>Title </div><div><input class="title" type="text" name="title" id="title"></div>
+                    </div><br>
+
+                    <div style="display: flex;">
+                    <div>Department *</div>
+                    <div>
+                        <select class="dep" name="department" id="department" required>
+                            <option value=""hidden>-Select-</option>
+                            <option value="engineer">Engineer</option>
+                            <option value="plumber">Plumber</option>
+                            <option value="electrition">Electrition</option>
+                            <option value="programer">Programer</option>
+                        </select>
+                    </div>
+                    </div><br>
+
+                    <div style="display: flex;">
+                        <div class="method" >Prefered contact method * </div>
+                        <div>
+                            <input type="radio" name="contact" id="email">Email
+                            <input type="radio" name="contact" id="phone">Phone
+                        </div>
+                    </div><br>
+
+                    <div style="display: flex;">
+                        <div>Company Address * </div>
+                        <div id="add">
+                            <input class="str_add" type="text" name="str_add" id="str_add" required><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Street Address <br>
+                            <input class="add_line" type="text" name="add_line" id="add_line" required><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Address Line 2
+                        </div><br>
+                    </div>
+
+                    <div id="city_state" style="display: flex;">
+                        <div class="city2"><input class="city" type="text" name="city" id="city" required><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;City</div>
+                        <div class="state2"><input class="state" type="text" name="state" id="state" required ><br>State/Region/Province</div>
+                    </div><br>
+
+                        <div id="zip" style="display: flex;">
+                            <div class="code2"><input class="code" type="number" name="code" id="code" required ><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Postal/Zip Code</div>
+                            <div class="country2">
+                                <select class="country" name="country" id="country" required>
+                                    <option value=""hidden>-Select-</option>
+                                    <option value="punjab">Punjab</option>
+                                    <option value="sindh">Sindh</option>
+                                    <option value="kpk">KPK</option>
+                                    <option value="balochistan">Balochistan</option>
+                                </select><br>
+                                Country
+                            </div>
+                        </div><br>
+
+                        <div style="display: flex;">
+                        <div>
+                            Company Website * 
+                        </div>
+                        <div>
+                            <input class="website" type="text" name="web" id="web" required>
+                        </div>
+                        </div><br>
+
+                        <div style="display: flex;">
+                        <div>
+                            Company logo 
+                        </div>
+                        <div class="logo2">
+                            <input class="logo" type="file" name="logo" id="logo">
+                        </div>
+                        </div><br>
+
+                        <div style="display: flex;">
+                        <div>
+                            Working Hours * 
+                        </div>
+                        <div>
+                            <input class="hours" type="text" name="hours" id="hours" required>
+                        </div>
+                        </div><br>
+
+                        <div style="display: flex;">
+                        <div>
+                            Working Days * 
+                        </div>
+                        <div>
+                            <input class="days" type="number" name="days" id="days" required>
+                        </div>
+                        </div><br>
+
+                        <div style="display: flex;">
+                        <div>
+                            Billing Cycle * 
+                        </div>
+                        <div>
+                            <input class="date" type="date" name="bill" id="bill" required>
+                        </div>
+                        </div><br>
+                        
+                        <div style="display: flex;">
+                        <div>
+                            Additional information 
+                        </div>
+                        <div>
+                            <textarea class="info" name="info" id="info" placeholder="Message"></textarea>
+                        </div>
+                        </div><br>
+
+                        <div class="button">
+                            <button>Submit</button>
+                        </div>
+                    </div>
+            </form>
+        </div>
+</body>
+</html>

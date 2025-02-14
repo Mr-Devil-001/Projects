@@ -1,0 +1,172 @@
+input[type=radio]{
+    margin-left: 0%;
+    margin-top: 15%;
+}
+#add{
+    font-size: xx-small;
+}
+#city_state{
+    font-size: xx-small;
+}
+#zip{
+    font-size: xx-small;
+}
+.client{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 261%;
+    margin-left: 50%;
+}
+.company{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 261%;
+    margin-left: 59%;
+}
+#C_name{
+    margin-right: 100%;
+}
+.title{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 261%;
+    margin-left: 83.5%;
+}
+.str_add{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 261%;
+    margin-left: 28%;
+}   
+.add_line{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 261%;
+    margin-left: 28%;
+}
+.city{
+    border: none;
+    width: 125%;
+    border-bottom: 1px solid black;
+    margin-left: 92%;
+}
+.state{
+    border: none;
+    width: 125%;
+    border-bottom: 1px solid black;
+}
+.state2{
+    margin-left: 33% ;
+}
+.code{
+    border: none;
+    width: 98%;
+    border-bottom: 1px solid black;
+    margin-left: 71.5%;
+}
+.country2{
+    margin-left: 25.5%;
+}
+.website{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 263%;
+    margin-left: 25%;
+}
+.hours{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 263%;
+    margin-left: 37%;
+}
+.days{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 263%;
+    margin-left: 40%;
+}
+.date{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 400%;
+    margin-left: 69%;
+}
+.info{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 260%;
+    margin-left: 18%;
+}
+.country{
+    border: none;
+    margin-top: 0.7%;
+    border-bottom: 1px solid black;
+    width: 230%;
+}
+.method{
+    margin-top: 2.3%;
+    margin-right: 3%;
+}
+.dep{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 510%;
+    margin-left: 100%;
+}
+.logo{
+    border-style: dotted;
+    padding: 7px;
+    border-style:ridge;
+    width: 157%;
+    margin-left: 26.5%;
+}
+.button{
+    margin-left: 40%;
+}
+button{
+    background-color: grey;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 20px ;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(1, 152, 1);
+}
+form{
+    margin-left: 22%;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px black;
+    background-color: white;
+    padding-bottom: 20px;
+    width: 700px;
+    border: 1px solid black;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px;
+    background-color: rgb(0, 37, 22);
+    color: white;
+    font-weight: 100;
+}
+p{
+    text-align: center;
+    padding-top: 0%;
+    padding-bottom: 5px;
+    margin-top: 0%;
+    margin-bottom: 20px;
+    background-color: rgb(0, 37, 22);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-small;
+}
+body{
+    background-color: rgb(37, 165, 37);
+}
